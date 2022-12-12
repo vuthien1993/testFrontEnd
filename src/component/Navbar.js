@@ -50,19 +50,19 @@ function Navbar() {
         className={`${display ? "backGroundNavbar" : "backGroundNavbarM"}`}
         ref={wrapperRef}
       >
-        <div>
+        <div onClick={clickHandler}>
           <span>Home</span>
         </div>
-        <div>
+        <div onClick={clickHandler}>
           <span>Services</span>
         </div>
-        <div>
+        <div onClick={clickHandler}>
           <span>News</span>
         </div>
-        <div>
+        <div onClick={clickHandler}>
           <span>Blog</span>
         </div>
-        <div>
+        <div onClick={clickHandler}>
           <span>Contact</span>
         </div>
       </div>
