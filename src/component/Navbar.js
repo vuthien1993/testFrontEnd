@@ -6,6 +6,9 @@ function Navbar() {
   const clickHandler = () => {
     setDisplay(!display);
   };
+  const clickHandlerT = () => {
+    setDisplay(true);
+  };
   const useOutsideAlerter = (ref) => {
     useEffect(() => {
       /**
@@ -50,19 +53,19 @@ function Navbar() {
         className={`${display ? "backGroundNavbar" : "backGroundNavbarM"}`}
         ref={wrapperRef}
       >
-        <div onClick={clickHandler}>
+        <div onClick={clickHandlerT}>
           <span>Home</span>
         </div>
-        <div onClick={clickHandler}>
+        <div onClick={clickHandlerT}>
           <span>Services</span>
         </div>
-        <div onClick={clickHandler}>
+        <div onClick={clickHandlerT}>
           <span>News</span>
         </div>
-        <div onClick={clickHandler}>
+        <div onClick={clickHandlerT}>
           <span>Blog</span>
         </div>
-        <div onClick={clickHandler}>
+        <div onClick={clickHandlerT}>
           <span>Contact</span>
         </div>
       </div>
