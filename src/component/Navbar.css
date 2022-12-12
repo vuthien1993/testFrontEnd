@@ -1,0 +1,25 @@
+.backGroundNavbar {
+  background: #191718;
+  color: white;
+  width: 150px;
+  height: 935px;
+}
+.backGroundNavbar div {
+  border-bottom: 1px solid #5c5c5c;
+  width: 150px;
+  line-height: 44px;
+}
+.backGroundNavbar div:hover {
+  background-color: #5c5c5c;
+}
+.backGroundNavbar span {
+  margin-left: 16px;
+}
+@media screen and (max-width: 992px) {
+  .backGroundNavbar {
+    background: #191718;
+    color: white;
+    width: 150px;
+    height: auto;
+  }
+}
